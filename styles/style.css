@@ -42,7 +42,7 @@ header {
   font-family: var(--accent-font);
   text-transform: uppercase;
   margin-block-start: 136px;
-  font-size: 49px;
+  font-size: clamp(3.0625rem, 1.8943rem + 4.9844vw, 4.0625rem);
   font-weight: 400;
   line-height: 49px;
   color: var(--accent-color);
@@ -52,7 +52,7 @@ header {
   font-family: var(--accent-font);
   color: var(--accent-color);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   font-weight: 400;
   line-height: 14px;
   text-align: left;
@@ -99,8 +99,6 @@ header {
   opacity: 0.6;
   pointer-events: none;
 }
-
-
 
 .theme-menu__button:focus-visible {
   outline: none; 
@@ -212,21 +210,15 @@ header {
   animation: box-shadow  0.5s ease-in-out forwards;
 }
 
-
 .card__icon-button {
   outline: none;
   background-color: transparent;
   border:  none;
   cursor: pointer;
-  padding: 4px 4px;
 }
 
 .sparks {
   opacity: 0;
-}
-
-.like-icon {
-  transform-origin: center;
 }
 
 
@@ -248,7 +240,7 @@ header {
 }
 
 .main-body {
-transition: fill 0.3s linear;
+  transition: fill 0.3s linear;
   fill: transparent;
 }
 
@@ -286,7 +278,6 @@ transition: fill 0.3s linear;
   animation: sparks 0.3s 0.3s ease-in 1 alternate;
 }
 
-
 /*  */
 
 .card__icon-button:focus-visible {
@@ -318,9 +309,7 @@ transition: fill 0.3s linear;
 
 .footer__button {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 8px;
   min-height: 51px;
   max-width: 335px;
@@ -365,4 +354,13 @@ transition: fill 0.3s linear;
   height: auto;
   mix-blend-mode: difference;
   color: var(--floppy-color);
+}
+
+@media (width <= 375px){
+  .footer__button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
