@@ -1,15 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --font-variable: "Inter-Variable", sans-serif; 
+  --font-variable: "Inter-Variable", sans-serif;
   --accent-font: "PressStart", sans-serif;   /*  обратить внимание потом поменять */
   --background-color: #fff;
   --accent-color: #000;
   --background-image: 
       repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
       repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
-      linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%)      
-  ;
+      linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%);
   --color-fill: red;
-  --shadow-color: #555;
+  --shadow-color: #fff;
   --floppy-color: #fff;
+  --weight-title: "wght" 700;
+  --weight-description: "wght" 400;
 }
