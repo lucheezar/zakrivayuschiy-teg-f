@@ -186,7 +186,7 @@ header {
 }
 
 .cat {
-  filter: contrast(150%);
+  filter: contrast(150%) saturate(90%) ;
 }
 
 .zen {
