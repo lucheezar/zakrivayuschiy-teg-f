@@ -190,7 +190,7 @@ header {
 }
 
 .zen {
-  filter: grayscale(50%);
+  filter: grayscale(50%) sepia(0.3) ;
 }
 
 .watermark {
