@@ -11,6 +11,6 @@
   --color-fill: red;
   --shadow-color: #fff;
   --floppy-color: #fff;
-  --weight-title: "wght" 700;
-  --weight-description: "wght" 400;
+  --weight-title: 700;
+  --weight-description:  400;
 }
