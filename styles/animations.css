@@ -26,25 +26,9 @@
 }
 
 /* анимации кнопок */
-
-@keyframes box-shadow {
-  100% {
-    box-shadow: 5px 5px 0 0 var(--accent-color);
-  }
-}
-
 @keyframes translate {
   100% {
     translate:100%;
-  }
-}
-
-@keyframes outline {
-  0% {
-    outline: none;
-  }
-  100% {
-    outline: 2px solid var(--accent-color);
   }
 }
 

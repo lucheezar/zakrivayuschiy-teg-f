@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="./styles/themes.css" />
     <link rel="icon" href="./images/favicon.ico" type="image/ico" />
     <link rel="icon" href="./svg/favicon.svg" type="image/svg" />
+    <link rel="icon" href="./images/favicon.png" type="image/png" />
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
     <header class="header">
-      <h2 class="header__tag">&lt;/HTML&gt;</h2>
-      <h1 class="header__title">закрывающий тег</h1>
+      <h1 class="header__tag">&lt;/HTML&gt;</h1>
+      <h2 class="header__title">закрывающий тег</h2>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -45,14 +46,14 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <section class="content">
         <article class="card">
-          <h3 class="content__title">
+          <h2 class="content__title">
             Фритрек и нулевой спринт: Подготовка к работе
-          </h3>
+          </h2>
           <div class="picture__container">
-            <h4 class="watermark">&lt;/HTML&gt;</h4>
+            <h3 class="watermark">&lt;/HTML&gt;</h3>
             <img
               class="content__image"
               src="./images/Car.png"
@@ -64,14 +65,15 @@
             Это было самое начало пути. На этом этапе важно было проникнуться
             основами и настроиться на учёбу. И, возможно, подумать, как новые
             знания могут повлиять на ваше будущее.
-            <span
-              >Помню как было много решимости на этом моменте. Каждые уроки
+            </p>
+            <p class="content__description">
+              Помню как было много решимости на этом моменте. Каждые уроки
               проходил с интригой "Что же будет дальше?". Быстрее хотелось
-              узнать что-то новое</span
-            >
+              узнать что-то новое
+           
           </p>
           <div class="like__container">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -112,13 +114,13 @@
           </div>
         </article>
         <article class="card">
-          <h3 class="content__title">1 спринт: Я — чистый лист</h3>
-          <div class="picture__container armchair">
-            <h4 class="watermark">
+          <h2 class="content__title">1 спринт: Я — чистый лист</h2>
+          <div class="picture__container">
+            <h3 class="watermark">
               Купил себе проффессиональное кресло для кодинга
-            </h4>
+            </h3>
             <img
-              class="content__image"
+              class="content__image filter-contrast"
               src="./images/armchair.jpg"
               alt="Игровое кресло"
               loading="lazy"
@@ -130,14 +132,15 @@
             конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим
             ощущением скрываются более глубокие вопросы: с чего начать? а вдруг
             будет слишком сложно? что, если я не справлюсь?
-            <span
-              >Как ни странно страха не было, я просто хотел изучить новую
+            </p>
+            <p class="content__description">
+              Как ни странно страха не было, я просто хотел изучить новую
               профессию. Тем более программирование было для меня близко еще со
-              школы.</span
+              школы.
             >
           </p>
           <div class="like__container">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -178,13 +181,13 @@
           </div>
         </article>
         <article class="card">
-          <h3 class="content__title">1 спринт: А если не получится?</h3>
+          <h2 class="content__title">1 спринт: А если не получится?</h2>
           <div class="picture__container">
-            <h4 class="watermark">
+            <h3 class="watermark">
               Когда сдал 1й проект и готов ехать работать за границу
-            </h4>
+            </h3>
             <img
-              class="content__image documents"
+              class="content__image filter-sepia"
               src=".//images/document.jpg"
               alt="Документы"
               loading="lazy"
@@ -194,18 +197,18 @@
             Первый проект — позади! Но это всё ещё самое начало пути. Радость
             могла быстро померкнуть и смениться ожиданием провала. Или вы,
             наоборот, могли вдохновиться успехами и поверить в себя.
-            <span
-              >Ох я помню эту первую проектную работу, как только я получил
+           </p>
+           <p class="content__description">
+              Ох я помню эту первую проектную работу, как только я получил
               макет я думал "ну все я сейчас её сделаю за пару минут". Как же я
               ошибался. Я вроде прошел целый спринт, казалось, что все усвоил.
               Но первая проектная откинула меня назад в обучение. Я искал всю
               информации в уроках, в интернете, в чате. Я почти сутками сидел и
               делал, у меня голова кипела от большого количества информации.
               Когда сдал проектную я почувствовал себя "богом вёрстки".
-            </span>
           </p>
           <div class="like__container">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -246,11 +249,11 @@
           </div>
         </article>
         <article class="card">
-          <h3 class="content__title">2 спринт: Погоня за идеалом</h3>
+          <h2 class="content__title">2 спринт: Погоня за идеалом</h2>
           <div class="picture__container">
-            <h4 class="watermark">Элексиры для понимания</h4>
+            <h3 class="watermark">Элексиры для понимания</h3>
             <img
-              class="content__image elixir"
+              class="content__image filter-blur"
               src="./images/elixir.jpg"
               alt="Полка с алкоголем"
               loading="lazy"
@@ -262,14 +265,14 @@
             идеалом и понять, что он недостижим. А, может, вы вовсе и не
             подвержены перфекционизму и вместо того, чтобы сделать идеально,
             старались просто сделать.
-            <span
-              >То самое место после 1 проектной где ты еще ощущаешь себя богом
-              вёрстки, чувствуешь каждый контейнер, осознаешь как они себя
-              будут вести, когда ты подставишь то или иное свойство.</span
-            >
+           </p>
+           <p class="content__description">
+              То самое место после 1 проектной где ты еще ощущаешь себя богом
+              вёрстки, чувствуешь каждый контейнер, осознаешь как они себя будут
+              вести, когда ты подставишь то или иное свойство.
           </p>
           <div class="like__container">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -310,11 +313,11 @@
           </div>
         </article>
         <article class="card">
-          <h3 class="content__title">2 спринт: О тех, кто рядом</h3>
+          <h2 class="content__title">2 спринт: О тех, кто рядом</h2>
           <div class="picture__container">
-            <h4 class="watermark">Кто действительно помогает кодить</h4>
+            <h3 class="watermark">Кто действительно помогает кодить</h3>
             <img
-              class="content__image keyboard"
+              class="content__image filter-grayscale"
               src="./images/keyboard.jpg"
               alt="Клавиатура и кошка"
               loading="lazy"
@@ -327,16 +330,15 @@
             можно пожаловаться, если очередной макет просто так не поддавался.
             Осваивать что-то новое легче, когда рядом есть единомышленники, не
             правда ли?
-            <span
-              >Редко чувствую себя одиноко. Поддержка чата, куратора на
-              протяжении всей учебы очень помогает. А т.к. я еще обучаюсь
-              вместе с сестрой, то чувство одиночества не приходит). Что-то
-              новое узнал сразу поделился "Смотри, что делает эта
-              функция".</span
-            >
+</p> <p class="content__description">
+              Редко чувствую себя одиноко. Поддержка чата, куратора на
+              протяжении всей учебы очень помогает. А т.к. я еще обучаюсь вместе
+              с сестрой, то чувство одиночества не приходит). Что-то новое узнал
+              сразу поделился "Смотри, что делает эта функция".
+
           </p>
           <div class="like__container">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -377,11 +379,11 @@
           </div>
         </article>
         <article class="card">
-          <h3 class="content__title">3 спринт: Обходные стратегии</h3>
+          <h2 class="content__title">3 спринт: Обходные стратегии</h2>
           <div class="picture__container">
-            <h4 class="watermark">Хозяин давай еще поспим</h4>
+            <h3 class="watermark">Хозяин давай еще поспим</h3>
             <img
-              class="content__image dog"
+              class="content__image filter-brightness"
               src="./images/dog.jpg"
               alt="Собака"
               loading="lazy"
@@ -391,15 +393,14 @@
             На этом курсе вы постоянно решали разные задачи. В какой-то момент
             вам могло показаться, что решения просто иссякли. Значит, пришло
             время посмотреть на задачу под другим углом.
-            <span
-              >3 спринт пожалуй был самым тяжким... Совершенно новые функции
+        </p> <p class="content__description">
+              3 спринт пожалуй был самым тяжким... Совершенно новые функции
               "media supports..." я почти ничего не понимал, когда проходил
               спринт. В тренажере все так просто и понятно, но в проектной
-              почему-то не работает)....</span
-            >
+              почему-то не работает)....
           </p>
           <div class="like__container">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -440,11 +441,11 @@
           </div>
         </article>
         <article class="card">
-          <h3 class="content__title">3 спринт: Когда опускаются руки</h3>
+          <h2 class="content__title">3 спринт: Когда опускаются руки</h2>
           <div class="picture__container">
-            <h4 class="watermark">Когда увидел 3 проектную</h4>
+            <h3 class="watermark">Когда увидел 3 проектную</h3>
             <img
-              class="content__image cat"
+              class="content__image filter-contrast_saturate"
               src="./images/cat.jpg"
               alt="Кошка"
               loading="lazy"
@@ -456,8 +457,8 @@
             порешать, и в теории получше разобраться, и жизнь не забыть пожить.
             В такие моменты очень нужна концентрация. Вспомните, откуда вы её
             черпали.
-            <span
-              >И тут я увидел макет 3 спринта. Сначала я думал, что нужно
+          </p><p class="content__description">
+          И тут я увидел макет 3 спринта. Сначала я думал, что нужно
               верстать несколько страниц. Стало только хуже, когда я понял, что
               это одна страница... Добавил все блоки кое-как сверстал их для
               мобильной версии и все. Усложнилась задача из-за того что мы
@@ -467,11 +468,10 @@
               нужно?!". Но тебя никто не торопит, куратор (Виолета, спасибо
               тебе) поддерживает меня и смотря на все это понимаешь, что
               торопиться не нужно. Потихоньку сделаешь и догонишь свою
-              группу.</span
-            >
+              группу.
           </p>
           <div class="like__container">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -512,11 +512,11 @@
           </div>
         </article>
         <article class="card">
-          <h3 class="content__title">«Сейчас я здесь»</h3>
+          <h2 class="content__title">«Сейчас я здесь»</h2>
           <div class="picture__container">
-            <h4 class="watermark">Когда познал анимацию</h4>
+            <h3 class="watermark">Когда познал анимацию</h3>
             <img
-              class="content__image zen"
+              class="content__image filter-grayscale_sepia"
               src="./images/Zen.jpg"
               alt="Человек"
               loading="lazy"
@@ -529,16 +529,16 @@
             этот мир постоянно меняется. Познать его полностью не получится, но
             это тот случай, когда важен сам процесс познания. Ведь часто путь —
             и есть результат.
-            <span
-              >3 спринт казался сложным?! 4 спринт "Смотри че есть!" (анимации,
-              перспектива, вариативный шрифт, 3D трансформации, SVG.) Ниче не
-              понятно, но ты учишь с умным видом, проходишь тренажеры. А потом
-              бац проектная "давай применяй свои знания". Только на практике
-              понимаешь как это все работает...</span
-            >
+          </p>
+          <p class="content__description">
+            3 спринт казался сложным?! 4 спринт "Смотри че есть!" (анимации,
+            перспектива, вариативный шрифт, 3D трансформации, SVG.) Ниче не
+            понятно, но ты учишь с умным видом, проходишь тренажеры. А потом бац
+            проектная "давай применяй свои знания". Только на практике понимаешь
+            как это все работает...
           </p>
           <div class="like__container">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -579,10 +579,9 @@
           </div>
         </article>
       </section>
-    </main>
-    <footer class="footer">
       <button
-        class="footer__button button"
+        type="submit"
+        class="button__open-dialog button"
         onclick="window['dialog-id'].showModal();"
       >
         <svg
@@ -597,7 +596,12 @@
         </svg>
         <span class="button__text">Сохранить на память </span>
       </button>
-      <dialog class="dialog" id="dialog-id" role="dialog" aria-modal="true">
+      <dialog
+        class="dialog"
+        id="dialog-id"
+        role="alertdialog"
+        aria-modal="true"
+      >
         <div class="floppy__container">
           <svg
             class="floppy-disk_dialog"
@@ -611,7 +615,7 @@
           </svg>
           <h3 class="dialog__title">Вставьте дискету, чтобы продолжить</h3>
         </div>
-        <form class="dialog__form">
+        <form class="dialog__form" method="dialog">
           <button
             class="close__button button"
             type="button"
@@ -621,7 +625,7 @@
           </button>
         </form>
       </dialog>
-    </footer>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
