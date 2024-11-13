@@ -272,11 +272,13 @@
 }
 
 .card__icon-button {
-  outline: none;
   background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 32px;
   border: none;
   cursor: pointer;
-  max-height: 32px;
   transition: outline 0.3s ease;
   outline: 2px solid transparent;
 }
