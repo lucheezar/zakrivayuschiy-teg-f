@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --font-variable: "Inter-Variable", sans-serif;
-  --accent-font: "PressStart", sans-serif;   /*  обратить внимание потом поменять */
+  --accent-font: "PressStart", fantasy;   /*  обратить внимание потом поменять */
   --background-color: #fff;
   --accent-color: #000;
   --background-image: 
